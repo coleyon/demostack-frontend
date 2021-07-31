@@ -3,7 +3,8 @@
 A snippet for creating my frontend app, based on the following projects
 https://github.com/tiangolo/full-stack-fastapi-postgresql
 
-# frontend
+
+# howto up-down
 
 ## Project setup
 ```
@@ -33,4 +34,22 @@ npm run lint
 ### Run your unit tests
 ```
 npm run test:unit
+```
+
+# local debug settings
+
+`.vscode/launch.json`
+```json
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "vuejs: chrome",
+            "request": "launch",
+            "type": "pwa-chrome",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}/src",
+        }
+    ]
+}
 ```
