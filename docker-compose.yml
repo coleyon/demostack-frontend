@@ -1,0 +1,9 @@
+version: "3.3"
+services:
+
+  frontend:
+    build:
+      context: .
+      args:
+        # 'dev' or 'production'
+        FRONTEND_ENV: ${FRONTEND_ENV-dev}
