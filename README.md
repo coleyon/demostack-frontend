@@ -1,3 +1,8 @@
+# demostack-frontend
+
+A snippet for creating my frontend app, based on the following projects
+https://github.com/tiangolo/full-stack-fastapi-postgresql
+
 # frontend
 
 ## Project setup
