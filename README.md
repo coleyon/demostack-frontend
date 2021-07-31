@@ -39,17 +39,23 @@ npm run test:unit
 # local debug settings
 
 `.vscode/launch.json`
+
 ```json
 {
     "version": "0.2.0",
     "configurations": [
-        {
-            "name": "vuejs: chrome",
-            "request": "launch",
-            "type": "pwa-chrome",
-            "url": "http://localhost:8080",
-            "webRoot": "${workspaceFolder}/src",
-        }
-    ]
+      {
+        "type": "chrome",
+        "request": "launch",
+        "name": "chrome",
+        "url": "http://localhost:8080",
+        "webRoot": "${workspaceFolder}/src",
+        "preLaunchTask": "serve",
+        "breakOnLoad": true,
+        "sourceMapPathOverrides": {
+        "webpack:///./src/*": "${webRoot}/*"
+      }
+    }
+  ]
 }
 ```

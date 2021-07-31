@@ -2,6 +2,7 @@ version: "3.3"
 services:
 
   frontend:
+    image: '${DOCKER_IMAGE_FRONTEND?Variable not set}:${TAG-latest}'
     build:
       context: .
       args:
