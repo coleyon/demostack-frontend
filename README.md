@@ -1,8 +1,18 @@
 # demostack-frontend
 
 A snippet for creating my frontend app, based on the following projects
+This code is disassembled codes for understanding and applying the original design. Only use for learning.
+
 https://github.com/tiangolo/full-stack-fastapi-postgresql
 
+**Modifications**:
+
+In shortenaly, this code is degraded version of the original. 
+
+* Split the frontend and the backend into two different projects
+* Removed Traefik routing and simplified Dockerfile
+
+backend project is here: https://github.com/coleyon/demostack
 
 # howto up-down
 
