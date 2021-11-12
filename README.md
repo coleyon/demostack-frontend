@@ -55,7 +55,7 @@ npm run test:unit
     "version": "0.2.0",
     "configurations": [
       {
-        "type": "chrome",
+        "type": "pwa-chrome",
         "request": "launch",
         "name": "chrome",
         "url": "http://localhost:8080",
@@ -68,4 +68,14 @@ npm run test:unit
     }
   ]
 }
+```
+
+# node
+
+```bash
+$ nvm install 10.24.1
+$ nvm use 10.24.1
+$ node --version
+v10.24.1
+$ npm install
 ```
